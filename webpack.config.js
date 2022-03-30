@@ -21,7 +21,8 @@ module.exports = {
       shared: {
         '@angular/core': { singleton: true, eager: true },
         '@angular/common': { singleton: true, eager: true },
-        '@angular/router': { singleton: true, eager: true }
+        '@angular/router': { singleton: true, eager: true },
+        'daletshared': { singleton: true, eager: true }
       },
     }),
   ],
